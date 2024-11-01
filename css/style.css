@@ -1,0 +1,95 @@
+
+div#tm-wrap {
+  font-family: Roboto;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 5%;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+
+div#tm-logo {
+  margin-top: 25px;
+  margin-right: 22px;
+}
+
+div#tm-wrap h2 {
+  font-weight: normal;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: #000000;
+}
+
+div#tm-wrap h3 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+div#tm-wrap h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 7px;
+  color: #000000;
+}
+
+div#tm-wrap p {
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 7px;
+  margin-bottom: 14px;
+  color: #000000;
+}
+
+div#tm-wrap form {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+}
+
+
+div#tm-button {
+  margin-left: auto;
+}
+
+div#tm-wrap .button {
+  font-weight: 500;
+  background: #4f46e5;
+  color: #FFFFFF;
+  border: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 1px 10px;
+  border-radius: 2px;
+  min-height: 10px;
+}
+
+.button-primary{
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+div#tm-wrap input#submit:disabled {
+  background: #DCE0E4 !important;
+  color: #FFFFFF !important;
+  text-shadow: none !important;
+}
+
+span.tm-medium-font {
+  font-weight: 500;
+}
+
+div#tm-helptext {
+  font-size: 14px;
+  margin-top: 80px;
+}
+
+.tm-p{
+  width: 800px;
+}
